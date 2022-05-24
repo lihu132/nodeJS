@@ -5,7 +5,7 @@ const fs = require('fs');
 
 //2. 调用fs.readFile()
 //   参数1：获取文件的存放路径
-//   参数2：获取文件时采用的编码格式，一般默认UTF8
+//   参数2：获取文件时采用的编码格式，一般默认UTF8，可选
 //   参数3：回调函数，拿到读取失败和成功的结果 err dataStr
 
 fs.readFile('./files/1.txt', 'utf8', function (err, dataStr) {
