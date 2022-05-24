@@ -9,4 +9,6 @@ const fs = require('fs');
 fs.writeFile("f:/files/2.txt", 'abcd', 'utf8', function(err) {
     //成功以后，err为null
     console.log(err);
+
+    //失败，则报错误码
 });
