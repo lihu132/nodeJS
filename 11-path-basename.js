@@ -7,3 +7,7 @@ console.log(fullName);
 
 var nameWithoutExt = path.basename(fpath, '.html');
 console.log(nameWithoutExt);
+
+
+var extName = path.extname(fpath);
+console.log(extName);
